@@ -1,0 +1,4 @@
+interface:
+  display_name: "Interactive Component Integration"
+  short_description: "Integrate interactive components with source fidelity"
+  default_prompt: "Use $interactive-component-integration to integrate this interactive visual, preserve its rendering contract, and verify the page for production."
