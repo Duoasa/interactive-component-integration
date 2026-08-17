@@ -1,0 +1,44 @@
+{
+  "name": "interactive-component-integration",
+  "version": "1.0.0",
+  "description": "A public agent skill for faithful integration of canvas, WebGL, shader, scroll-driven, pointer-reactive, and third-party animated components.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "resources",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "agent-skill",
+    "codex-skill",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "webgl",
+    "canvas",
+    "shader",
+    "frontend"
+  ],
+  "author": "Duoasa",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duoasa/interactive-component-integration.git"
+  },
+  "homepage": "https://github.com/Duoasa/interactive-component-integration#readme",
+  "bugs": {
+    "url": "https://github.com/Duoasa/interactive-component-integration/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
