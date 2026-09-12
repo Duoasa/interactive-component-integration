@@ -4,6 +4,13 @@
 
 > Public agent skill for production-grade interactive frontend integration. Compatible with Codex and DeepSeek Harness (DSH). Free for anyone to use, modify, and redistribute under the MIT License.
 
+## Task-sized guidance
+
+The skill applies to identified external interactive components. Its entrypoint
+routes to rendering, page containment, or visual-verification details only when
+needed. A small repair uses affected checks; initial source integration still
+preserves the rendering contract, and visual parity requires comparable evidence.
+
 ## English
 
 `interactive-component-integration` helps agents integrate third-party interactive and animated frontend components without silently changing how they actually render.
